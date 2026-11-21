@@ -1,0 +1,309 @@
+@media (max-width: 73.75rem) {
+    /* 1180px */
+    html {
+        font-size: 56.25%;
+    }
+
+    .navbar {
+        margin-bottom: 12rem;
+    }
+
+    /* *********** HERO *********** */
+    
+    /* .hero-title {
+        font-size: 6rem;
+    } */
+
+    .hero-underline {
+        max-width: 430px;
+    }
+
+    .charlie-green {
+        max-width: 380px;
+    }
+    
+    .credit-card {
+        max-width: 130px;
+        width: 100%;
+        bottom: 40px;
+        right: -50px;
+    }
+}
+
+
+
+@media (max-width: 69.3rem) {
+    html {
+        font-size: 50%;
+    }
+
+    /* *********** HERO *********** */
+
+    .hero-underline {
+        max-width: 400px;
+    }
+
+    .charlie-green {
+        max-width: 340px;
+    }
+
+    .enter-amount {
+        max-width: 200px;
+        left: -120px;
+    }
+
+    .total-income {
+        max-width: 120px;
+    }
+
+    .credit-card {
+        max-width: 110px;
+    }
+    
+    /* *********** BENEFITS *********** */
+
+    .benefit-img {
+        max-width: 380px;
+    }
+
+    .amanda-young {
+        max-width: 200px;
+        left: -90px;
+    }
+
+    .benefit-total-income {
+        max-width: 120px;
+    }
+
+    .money-transfer {
+        max-width: 250px;
+    }
+
+    /* *********** PRICING *********** */
+    .pricing-card {
+        padding: 2rem 1rem;
+    }
+}
+
+
+@media (max-width: 57.1rem) {
+    html {
+        font-size: 43.75%;
+    }
+
+    /* *********** HERO *********** */
+
+    .hero-underline {
+        max-width: 320px;
+    }
+
+    .charlie-green {
+        max-width: 280px;
+    }
+
+    .enter-amount {
+        max-width: 180px;
+        left: -100px;
+    }
+
+    .total-income {
+        max-width: 100px;
+    }
+
+    .credit-card {
+        max-width: 90px;
+    }
+
+    /* *********** BENEFITS *********** */
+    .benefit-img {
+        max-width: 340px;
+    }
+
+    .amanda-young {
+        max-width: 180px;
+        left: -70px;
+        top: 50px;
+    }
+
+    .benefit-total-income {
+        max-width: 100px;
+    }
+
+    .money-transfer {
+        max-width: 230px;
+    }
+
+    /* *********** PRICING *********** */
+    
+    .pricing-plans {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+    
+    .pricing-card {
+        padding: 3rem 1.5;
+    }
+
+    .pricing-card-pro {
+        grid-column: 5 / 9;
+    }
+
+    .pricing-card-free {
+        grid-column: 3 / 7;
+        grid-row: 2;
+    }
+
+    .pricing-card-business {
+        grid-column: 7 / 11;
+        grid-row: 2;
+    }
+}
+
+@media (max-width: 46.87rem) {
+    html {
+        font-size: 37.5%;
+    }
+
+    .navbar {
+        margin-bottom: 5rem;
+    }
+
+    .header {
+        padding-bottom: 1rem;
+    }
+
+    /* *********** HERO *********** */
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .hero-underline {
+        max-width: 500px;
+    }
+
+    .hero-image {
+        justify-content: center;
+    }
+
+    .charlie-green {
+        max-width: 250px;
+    }
+
+    .enter-amount {
+        max-width: 150px;
+        top: 20px;
+        left: -50px;
+    }
+    
+    .blue-checkmark {
+        left: -40px;
+    }
+
+    .total-income {
+        left: -30px;
+    }
+
+    /* *********** COMPANY *********** */
+    .company-logo {
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .logo-icon {
+        max-width: 120px;
+    }
+
+
+    /* *********** SUPPORT *********** */
+    .support-heading {
+        font-size: 4rem;
+    }
+
+    /* *********** FEATURES *********** */
+    .feature-heading {
+        font-size: 4rem;
+    }
+
+    /* *********** BENEFITS *********** */
+    .benefit-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .benefit-info {
+        text-align: center;
+    }
+
+    .benefit-img {
+        max-width: 250px;
+    }
+
+    .money-transfer {
+        max-width: 200px;
+        left: -90px;
+    }
+
+    .image-icon {
+        top: 210px;
+        left: -50px;
+    }
+
+    /* *********** PRICING *********** */
+    .pricing-plans {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    /* *********** FOOTER *********** */
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+
+    .footer-br {
+        display: none;
+    }
+
+    .footer-form-container {
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-newsletter {
+        align-items: center;
+    }
+
+    .input-wrapper {
+        max-width: 300px;
+    }
+
+    .footer-credits {
+        text-align: center;
+    }
+}  
